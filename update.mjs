@@ -496,6 +496,7 @@ const base = {
   'Makefile': '*.mk',
   'pom.xml': 'mvnw*',
   'shims.d.ts': '*.d.ts',
+  'lychee.toml': '.lycheecache, .lycheeignore',
 }
 // Based on the new SvelteKit's routing system https://kit.svelte.dev/docs/routing
 const svelteKitRouting = {
