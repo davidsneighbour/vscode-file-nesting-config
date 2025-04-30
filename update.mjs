@@ -467,6 +467,7 @@ const base = {
   '*.go': '$(capture)_test.go',
   '*.java': '$(capture).class',
   '*.js': '$(capture).js.map, $(capture).*.js, $(capture)_*.js, $(capture).d.ts, $(capture).d.ts.map, $(capture).js.flow',
+  '*.json': '$(capture).jsonnet, $(capture).*.json',
   '*.jsx': '$(capture).js, $(capture).*.jsx, $(capture)_*.js, $(capture)_*.jsx, $(capture).css, $(capture).module.css, $(capture).less, $(capture).module.less, $(capture).module.less.d.ts, $(capture).scss, $(capture).module.scss, $(capture).module.scss.d.ts',
   '*.master': '$(capture).*.cs, $(capture).*.vb',
   '*.md': '$(capture).*',
